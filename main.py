@@ -17,7 +17,7 @@ def lootprint(i):
 
 """
 Diese Methode zeigt dir wie du eine zufällige 
-Zahl zwischen 0 und 50 erzeugen kannst. 
+Zahl zwischen minimal und maximal erzeugen kannst. 
 """
 def randomnumber(minimal, maximal):
     return random.randrange(minimal,maximal)
@@ -32,7 +32,7 @@ def main():
     
     #Hier rufen wir eine Methode von gui.py auf 
     #Schreibe mal gui und schau, was passiert, wenn du jetzt einen . machst
-    gui.hallo()
+    #gui.hallo()
     
 
 main()
