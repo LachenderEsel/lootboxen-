@@ -1,6 +1,7 @@
 import random
 import gui
 
+#Dies ist ein Array, eventuell könnte das nochmal praktisch sein
 loot = ['Magisches Schwert', 'Axt', 'Kissen', 'Zauberstab', 'Feuchter Furz']
 
 """
@@ -25,9 +26,13 @@ def randomnumber(minimal, maximal):
 Simples Hello World für den Start
 """
 def main():
+    #Eine Schleife die 5 mal etwas printet 
     for i in range(5):
         print("Das Program von dem Tosh")
-    gui.window()
+    
+    #Hier rufen wir eine Methode von gui.py auf 
+    #Schreibe mal gui und schau, was passiert, wenn du jetzt einen . machst
+    gui.hallo()
     
 
 main()
